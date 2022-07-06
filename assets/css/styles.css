@@ -1,0 +1,49 @@
+header {
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+.navigation-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.navigation-list a {
+    text-decoration: none;
+    background-color: red;
+    padding: 10px;
+    display: block;
+    color: white;
+}
+
+.container-1 {
+    margin-top: 50px;
+    background-color: aliceblue;
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+.container-1 p {
+    background-color: blue;
+    color: white;
+    width: 20%;
+    padding: 10px;
+}
+
+.center-container {
+    margin-top: 50px;
+    height: 500px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-container div{
+    height: 300px;
+    width: 500px;
+    background-color: #fa00ff;
+}
